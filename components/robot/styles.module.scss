@@ -1,0 +1,22 @@
+.robot {
+  width: 200px;
+  padding: 15px;
+  height: fit-content;
+  border: 3px solid #facc15;
+  margin: 10px;
+  h1 {
+    color: #fff;
+    text-align: center;
+    font-weight: 700;
+    margin-bottom: 5px;
+  }
+  h2 {
+    text-align: center;
+  }
+}
+
+.actions {
+  display: flex;
+  justify-content: center;
+  margin-top: 15px;
+}
