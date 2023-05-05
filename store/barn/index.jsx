@@ -61,8 +61,6 @@ export const farmSlice = createSlice({
     },
     cowMilk: (state) => {
       for (const cow of state.barn) {
-        console.log("cow.milk", cow.milk);
-        console.log("cow.hunger", cow.hunger);
         if (cow.milk < 10 && cow.hunger < 10) {
           cow.milk += Math.floor(Math.random() * 3) + 1;
         }
